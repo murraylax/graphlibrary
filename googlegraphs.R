@@ -68,7 +68,15 @@ update_one_figure <- function(savefolder, google_drive_location, overwrite=TRUE)
 
 # Example: NOT RUN
 if(FALSE) {
-  newgraph <- "https://docs.google.com/drawings/d/1vhkuxHh7zD7XPDlszPX1znW2TvYQRC1Aj5ZlaR9vUHY"
-  savefolder <- "./images/Consumption_Leisure_Model/"
+  newgraph <- "https://docs.google.com/drawings/d/1GHkMZUX77fjqSVfCYzeaxFB8_oqFrBpv8y5n7VUYTYY"
+  savefolder <- "./images/Growth_Models/"
+  update_one_figure(savefolder, newgraph)
+  
+  newgraph <- "https://docs.google.com/drawings/d/1zOSvrVxmwR-lMTtChl-wt7XEJagdECa7S_CJD0mYSlU"
+  savefolder <- "./images/Growth_Models/"
+  update_one_figure(savefolder, newgraph)
+  
+  newgraph <- "https://docs.google.com/drawings/d/1PkhRPdmmbr06gfgKLnjX51fkV6_Jp3lSDx__3zqvRyY"
+  savefolder <- "./images/Growth_Models/"
   update_one_figure(savefolder, newgraph)
 }
