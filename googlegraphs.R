@@ -1,6 +1,14 @@
 library(googledrive)
 library(tidyverse)
 
+# TO ACCESS A PUBLICLY AVAILABLE IMAGE FILE:
+# ------------------------------------------
+#
+# https://raw.githubusercontent.com/murraylax/graphlibrary/main/images/SUBFOLDER/FILENAME
+#
+# Example:
+# https://raw.githubusercontent.com/murraylax/graphlibrary/main/images/Aggregate_Supply_and_Aggregate_Demand/ASAD-AbovePotential-ADLeft.jpg
+
 fix_folder_name <- function(folder) {
   if(str_sub(folder,-1)=="/") folder <- str_sub(folder, start=1, end=-2)
   return(folder)
