@@ -58,6 +58,9 @@ update_one_figure <- function(savefolder, google_drive_location, overwrite=TRUE)
   return(images.df)
 }
 
-newgraph <- "https://docs.google.com/drawings/d/1vhkuxHh7zD7XPDlszPX1znW2TvYQRC1Aj5ZlaR9vUHY"
-savefolder <- "./images/Consumption_Leisure_Model/"
-update_one_figure(savefolder, newgraph)
+# Example: NOT RUN
+if(FALSE) {
+  newgraph <- "https://docs.google.com/drawings/d/1vhkuxHh7zD7XPDlszPX1znW2TvYQRC1Aj5ZlaR9vUHY"
+  savefolder <- "./images/Consumption_Leisure_Model/"
+  update_one_figure(savefolder, newgraph)
+}
