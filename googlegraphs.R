@@ -68,7 +68,7 @@ update_one_figure <- function(savefolder, google_drive_location, overwrite=TRUE)
 
 # Example: NOT RUN
 if(FALSE) {
-  newgraph <- "https://docs.google.com/drawings/d/1J6Guh8dB59dF1F6GyBSNtNjQQfsvk4jrzXwGApjrPHk"
-  savefolder <- "./images/Currency_Supply_and_Demand"
+  newgraph <- "https://docs.google.com/drawings/d/1uWrya-pFUvZuq80VKYG4f2CRmB_XsjCDWQjiHt6xYek"
+  savefolder <- "./images/Labor_Markets"
   update_one_figure(savefolder, newgraph)
 }
